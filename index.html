@@ -6,6 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KCC</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        .wrapper {
+            display: grid;
+            place-content: center;
+            height: 90vh;
+        }
+
+        .card {
+            background: url('./image/card.png') ;
+            height: 60vh;
+            width: 60vw;
+            background-size: contain;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        h1 {
+            position: absolute;
+            bottom: 30px;
+            left: 90px;
+            color: red;
+            font-size: 40px;
+        }
+    </style>
 </head>
 <body>
     <div class="wrapper">
